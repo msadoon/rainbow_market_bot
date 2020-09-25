@@ -18,7 +18,7 @@ When you create a bot on Telegram, you be given a **secure key** use that as you
 The ``bot_chatID`` comes when you add the bot to a Telegram group and type ``/start`` in the group.
 
 Use this command
-	https://api.telegram.org/bot%3Cbot_token%3E/getUpdates
+	https://api.telegram.org/bot<Cbot_token%>/getUpdates
 
 to find the ``chat: id`` in the returned JSON.
 	
