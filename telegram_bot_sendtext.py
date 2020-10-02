@@ -5,7 +5,7 @@ def getSP500Index():
 	response = requests.get(finhubbSPYQuote)
 
 	json = response.json()
-	openValue = json["o"]
+	openValue = json["pc"]
 	closeValue = json["c"]
 
 	rainbowMarket = "🌈"
