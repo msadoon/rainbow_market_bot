@@ -6,7 +6,7 @@ from emojipy import Emoji
 
 def image(rawHTML):
 	imageSource = html.fromstring(rawHTML)
-	imageSourceURL = imageSource.xpath('//img[@class="emojione"]/@src')[0]
+	imageSourceURL = imageSource.xpath('//img[contains(@src, ".png")]/@src')[0]
 	response = requests.get(imageSourceURL)
 	image = Image.open(BytesIO(response.content))
 
