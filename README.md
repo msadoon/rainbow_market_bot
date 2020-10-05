@@ -2,6 +2,12 @@
 
 This is an elegant piece of software that does 1 of 2 things at 4:30 EDT (GMT -4) every weekday. It either prints 🌈🐻 when the S&P 500 index has had a negative day, or 🌈🐂 when it had a plus day. It sends this message to any group with a bot on Telegram.
 
+# To Do
+
+- scale emoji's by percentage gain/loss ✅
+- add > 10% caption text.
+- use ^GSPC as the ticker symbol instead of SPY to offset inaccuracy of dividend payoffs
+
 # Files
 
 ## Where does the bot send messages?
