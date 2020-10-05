@@ -6,9 +6,11 @@ This is an elegant piece of software that does 1 of 2 things at 4:30 EDT (GMT -4
 
 ## Where does the bot send messages?
 
-The bot sends messages using this line of code.
+The bot sends messages using the ``bot_token`` to identify the bot and the ``bot_chatID`` to identify the chat the bot is in. Example:
 
 	'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
+
+*Note*: Unfortunately this entire program has to copied to an entirely new bot, because I don't want to give my ``auth_token`` away.
 
 
 ## How does it send messages:
