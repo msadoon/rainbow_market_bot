@@ -4,7 +4,8 @@ This is an elegant piece of software that does 1 of 2 things at 4:30 EDT (GMT -4
 
 # To Do
 
-- scale emoji's by percentage gain/loss
+- scale emoji's by percentage gain/loss ✅
+- add > 10% caption text.
 - use ^GSPC as the ticker symbol instead of SPY to offset inaccuracy of dividend payoffs
 
 # Files
