@@ -2,6 +2,12 @@
 
 This is an elegant piece of software that does 1 of 2 things at 4:30 EDT (GMT -4) every weekday. It either prints 🌈🐻 when the S&P 500 index has had a negative day, or 🌈🐂 when it had a plus day. It sends this message to any group with a bot on Telegram.
 
+# To Do
+
+- scale emoji's by percentage gain/loss ✅
+- add > 10% caption text.
+- use ^GSPC as the ticker symbol instead of SPY to offset inaccuracy of dividend payoffs
+
 # Files
 
 ## Where does the bot send messages?
@@ -20,7 +26,7 @@ When you create a bot on Telegram, you be given a **secure key** use that as you
 The ``bot_chatID`` comes when you add the bot to a Telegram group and type ``/start`` in the group.
 
 Use this command
-	https://api.telegram.org/bot%3Cbot_token%3E/getUpdates
+	https://api.telegram.org/bot<bot_token>/getUpdates
 
 to find the ``chat: id`` in the returned JSON.
 	
